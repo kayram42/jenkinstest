@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    k8 {
+    kubernetes {
       yamlFile 'agent.yaml'
       idleMinutes 1
     }
