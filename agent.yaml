@@ -4,9 +4,6 @@ metadata:
   name: sarva-test
 spec:
   containers:
-   - name: mavencontainer
-     image: maven:3.5.4-jdk-11-slim
-     command: ["sleep", "43200"]
    - name: dockercontainer
      image: docker:20
      command: ["sleep", "43200"]
