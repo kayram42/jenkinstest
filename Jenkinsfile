@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build maven code') {
       steps {
-      container('mavencontainer') {  
+      container('dockercontainer') {  
           sh "echo 'it's working'"
        }    
       }
